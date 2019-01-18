@@ -8,3 +8,5 @@
   puts RestClient.get(url1)
   puts RestClient.get(url2)
   puts RestClient.get(url3)
+  
+  puts RestClient.post(url, '')
